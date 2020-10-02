@@ -1,8 +1,25 @@
+/* Global */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
+
+.container{
+  width: 80%; 
+  margin: auto;
+  height: 50px;
+}
+
+.btn-orange{
+  background-color: orangered;
+  color: #ffffff;
+  border: none;
+  width: 60px;
+  height: 30px;
+}
+
+/* fim GLOBAL */
 
 /* Header */
 .header{
@@ -12,20 +29,17 @@ body {
   border-bottom: orangered solid 5px;
 }
 
-.header .nav .current a, 
+.header .nav .menu-atual a, 
 .header span{
+  /* Cor do texto */
   color: orangered;
 }
 
-.container{
-  /* Largura */
-  width: 80%; 
-  margin: auto;
-
-  height: 50px;
-}
-
 .title-header h1,
+/* fim HEADER */
+
+
+/* NAV */
 .nav ul
 {
   margin: 0;
@@ -52,3 +66,47 @@ body {
   padding: 20px;
   padding: 10px 20px 0 20px;
 }
+/* Fim NAV */
+
+/* SHOWCASE */
+.showcase{
+  background-image: url(../img/team.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  min-height: 400px;
+}
+
+.showcase h1{
+  margin: 0;  
+  font-size: 55px;
+  padding-top: 100px;
+}
+
+.showcase p{
+  font-size: 22px;
+}
+/* Fim SHOWCASE */
+
+/* NEWS */
+.new{
+  padding: 30px 0px 20px 0px;
+  background-color: #232323;
+  color: #ffffff;
+}
+
+.new h1{
+  margin: 0;
+  float: left;
+}
+
+.new form{
+  float: right;
+}
+
+.new input{
+  height: 25px;
+  width: 225px;
+}
+/* fim NEWS */
