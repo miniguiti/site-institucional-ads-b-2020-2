@@ -1,112 +1,166 @@
 /* Global */
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
-  width: 80%; 
-  margin: auto;
-  height: 50px;
+.container {
+    width: 80%;
+    margin: auto;
+    height: 50px;
 }
 
-.btn-orange{
-  background-color: orangered;
-  color: #ffffff;
-  border: none;
-  width: 60px;
-  height: 30px;
+.btn-orange {
+    background-color: orangered;
+    color: #ffffff;
+    border: none;
+    width: 60px;
+    height: 30px;
 }
+
 
 /* fim GLOBAL */
 
+
 /* Header */
-.header{
-  background-color: #232323;
-  height: 80px;
-  padding-top: 30px;
-  border-bottom: orangered solid 5px;
+
+.header {
+    background-color: #232323;
+    height: 80px;
+    padding-top: 30px;
+    border-bottom: orangered solid 5px;
 }
 
-.header .nav .menu-atual a, 
-.header span{
-  /* Cor do texto */
-  color: orangered;
+.header .nav .menu-atual a,
+.header span {
+    /* Cor do texto */
+    color: orangered;
 }
 
 .title-header h1,
+
 /* fim HEADER */
 
 
 /* NAV */
-.nav ul
-{
-  margin: 0;
+
+.nav ul {
+    margin: 0;
 }
 
-.title-header{
-  float: left;
-  color: #ffffff;
+.title-header {
+    float: left;
+    color: #ffffff;
 }
 
-.nav{
-  float: right;
+.nav {
+    float: right;
 }
 
-.nav a{
-  text-decoration: none;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-size: 18px;
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
-.nav li{
-  display: inline-block;
-  padding: 20px;
-  padding: 10px 20px 0 20px;
+.nav li {
+    display: inline-block;
+    padding: 20px;
+    padding: 10px 20px 0 20px;
 }
+
+
 /* Fim NAV */
 
+
 /* SHOWCASE */
-.showcase{
-  background-image: url(../img/team.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #ffffff;
-  text-align: center;
-  min-height: 400px;
+
+.showcase {
+    background-image: url(../img/team.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    min-height: 400px;
 }
 
-.showcase h1{
-  margin: 0;  
-  font-size: 55px;
-  padding-top: 100px;
+.showcase h1 {
+    margin: 0;
+    font-size: 55px;
+    padding-top: 100px;
 }
 
-.showcase p{
-  font-size: 22px;
+.showcase p {
+    font-size: 22px;
 }
+
+
 /* Fim SHOWCASE */
 
+
 /* NEWS */
-.new{
-  padding: 30px 0px 20px 0px;
-  background-color: #232323;
-  color: #ffffff;
+
+.new {
+    padding: 30px 0px 20px 0px;
+    background-color: #232323;
+    color: #ffffff;
 }
 
-.new h1{
-  margin: 0;
-  float: left;
+.new h1 {
+    margin: 0;
+    float: left;
 }
 
-.new form{
-  float: right;
+.new form {
+    float: right;
 }
 
-.new input{
-  height: 25px;
-  width: 225px;
+.new input {
+    height: 25px;
+    width: 225px;
 }
+
+
 /* fim NEWS */
+
+
+/*inicio VALORES*/
+
+.box {
+    /*height: 300px; << pode usar esse aqui em vez de ouverflow*/
+    overflow: auto;
+    /* --- COMMENT AQUI --- */
+}
+
+.box .box-item {
+    text-align: center;
+    width: 300px;
+    float: left;
+    margin: 40px 20px;
+}
+
+.box img {
+    height: 100px;
+}
+
+
+/*fim VALORES*/
+
+
+/*FOOTER */
+
+.footer {
+    background-color: orangered;
+    height: 100px;
+}
+
+.footer h4 {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    color: white;
+    font-weight: 100;
+}
